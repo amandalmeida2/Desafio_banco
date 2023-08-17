@@ -18,7 +18,7 @@ extrato = ""
 numero_saques = 0
 LIMITE_SAQUES = 3 
 
-# Utilizar laço de repetição While para executar o bloco até que a opção não seja mais verdadeira
+# Utilizar laço de repetição While para executar o bloco até que a opção de saída seja selecionada. Break do programa
 
 while True:
     
@@ -31,7 +31,7 @@ while True:
         if valor > 0:   # Condição: Se o valor for maior que zero executa o código para armazenar o valor na variável saldo e extrato
            
             saldo += valor  # Atribuição com adição: acrescenta o valor digitado à variável saldo
-            extrato += f"Depósito: R$ {valor:.2f}\n" #acrescenta o valor digitado à variável extrato e o novo valor é informado com duas casa decimais (.2f)
+            extrato += f"Depósito: R$ {valor:.2f}\n" # Acrescenta o valor digitado à variável extrato e o novo valor é informado com duas casa decimais (.2f)
            
             print(f"\n Depósito realizado com suscesso no valor de {valor:.2f}")
             
@@ -82,12 +82,12 @@ while True:
             
     elif opcao == "3":
         print("\n ........ EXTRATO ..........")
-        print("Não foram realizadas movimentações." if not extrato else extrato) # o ifnot é para verificar se o extrato está vazio
+        print("Não foram realizadas movimentações." if not extrato else extrato) # O ifnot é para verificar se o extrato está vazio
         print(f"\nSaldo: R$ {saldo:.2f}")
         print("..............................")
         
     elif opcao == "4":
-        break #Pára o programa, é a opção da saída
+        break # Pára o programa, é a opção da saída
 
     else:
-     print("operação inválida! Por favor, selecione novamente a operação desejada") #caso a opção digitada não está dentro da especificação do menu
+     print("operação inválida! Por favor, selecione novamente a operação desejada") # Caso a opção digitada não está dentro da especificação do menu
