@@ -6,13 +6,13 @@ Um grande banco requisitou o desenvolvimento de um novo sistema em linguagem Pyh
 
 📌 Deve ser possível depositar apenas valores positivos para a conta bancária;
 
-📌 A Primeira versão trabalha com apenas  usuário;
+📌 A Primeira versão trabalha com apenas 1 usuário;
 
 📌 Todos os depósitos devem ser armazenados em uma variável e exibidos na operação de extrato;
     
 📌 O sistema deve permitir realizar 3 saques diários com limitie máximo de R$ 500,00 por saque; 
     
-📌 Caso o usuário não tenha saldo em conta, o sistema deve exibir a uma mensagem informando que não será possível sacar o dinheiro por falta d saldo;
+📌 Caso o usuário não tenha saldo em conta, o sistema deve exibir uma mensagem informando que não será possível sacar o dinheiro por falta de saldo;
     
 📌 Todos os saques devem ser armazenados em uma variável e exbidos na operação de extrato;
    
