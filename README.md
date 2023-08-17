@@ -1,4 +1,4 @@
-# Desafio Criando um sistema de Banco
+# Desafio Criando um sistema de Bancário com Python
 
 Um grande banco requisitou o desenvolvimento de um novo sistema em linguagem Pyhon. Para a primeira versão do sistema foram implementadas apenas 3 operações: depósito, saque e extrato. 
 
